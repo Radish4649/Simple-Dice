@@ -21,6 +21,10 @@ textarea {
   width: 100%;
 }
 
+* {
+  color: white;
+  background-color: black;
+}
 
 @media only screen and (max-width: 800px) {
   .pageBox {
