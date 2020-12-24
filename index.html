@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <meta charset="utf-8">
+    <title>Dice</title>
+  </head>
+  <body>
+  <h1 class ="title">Dice Roller!</h1>
+  <div class="pageBox">
+    <div class="diceBox">
+      <label for="d4">
+        D4:&nbsp;
+      </label>
+      <input size="5" type="number" name="d4" value="" id="n4">
+      <button type="button" name="d4" id="4">
+        Roll!
+      </button>
+      <br>
+      <br>
+      <br>
+      <label for="d6">
+        D6:&nbsp;
+      </label>
+      <input size="5" type="number" name="d6" value="" id="n6">
+      <button type="button" name="d6" id="6">
+        Roll!
+      </button>
+      <br>
+      <br>
+      <br>
+      <label for="d8">
+        D8:&nbsp;
+      </label>
+      <input size="5" type="number" name="d8" value="" id="n8">
+      <button type="button" name="d8" id="8">
+        Roll!
+      </button>
+      <br>
+      <br>
+      <br>
+      <label for="d10">
+        D10:
+      </label>
+      <input size="5" type="number" name="d10" value="" id="n10">
+      <button type="button" name="d10" id="10">
+        Roll!
+      </button>
+      <br>
+      <br>
+      <br>
+      <label for="d12">
+        D12:
+      </label>
+      <input size="5" type="number" name="d12" value="" id="n12">
+      <button type="button" name="d12" id="12">
+        Roll!
+      </button>
+      <br>
+      <br>
+      <br>
+      <label for="d20">
+        D20:
+      </label>
+      <input size="5" type="number" name="d20" value="" id="n20">
+      <button type="button" name="d20" id="20">
+        Roll!
+      </button>
+      <br>
+      <br>
+      <br>
+      <label for="dCustom">
+        Custom Roll:
+      </label>
+      <input size="5" type="number" name="dC1" value="" id="nC1"> D
+      <input size="5" type="number" name="dC2" value="" id="nC2">
+      <button type="button" name="dC" id="C">
+        Roll!
+      </button>
+      <p>
+        For the custom roll, the first number is the number of dice, while the second number is the number of faces on the die.
+      </p>
+      <br>
+      <button type="button" name="rollall" id="rollall">
+        Roll all dice
+      </button>
+      <button type="button" name="erase" id="erase">
+        Erase all current rolls
+      </button>
+      <button type="button" name="darkmode" id="darkmode">
+        Toggle Darkmode
+      </button>
+    </div>
+    <div class="textBox">
+      <textarea readonly name="text" id="text">
+      </textarea>
+    </div>
+  </div>
+  </body>
+  <script src="script.js"></script>
+  <script src="darkmode.js"></script>
+</html>
