@@ -1,0 +1,41 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.pageBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.diceBox {
+  width: 30vw;
+}
+
+.textBox {
+  width: 30vw;
+}
+
+textarea {
+  height: 100%;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .pageBox {
+    flex-direction: column-reverse;
+  }
+  
+  .diceBox {
+    width: 80vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .textBox {
+    width: 80vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
